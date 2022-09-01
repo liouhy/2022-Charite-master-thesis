@@ -1,0 +1,6 @@
+cd ~/homer/bin
+annotatePeaks.pl /fast/AG_Ohler/hyliou/mtproject/raw/scATAC-Healthy-Hematopoiesis-191120-ft-homer.txt hg19 -CpG > /fast/AG_Ohler/hyliou/mtproject/processed/Granja_ATAC_anno.txt
+
+annotatePeaks.pl /fast/AG_Ohler/hyliou/mtproject/processed/Luecken_ATAC.bed hg38 -CpG > /fast/AG_Ohler/hyliou/mtproject/processed/Luecken_ATAC_ann.txt
+
+annotatePeaks.pl /fast/AG_Ohler/hyliou/mtproject/processed/10X_multiome/ATAC.bed hg38 -CpG > /fast/AG_Ohler/hyliou/mtproject/processed/10X_multiome/ATAC_ann.txt
